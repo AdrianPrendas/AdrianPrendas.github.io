@@ -1,0 +1,22 @@
+{
+  "name": "personal.info.page",
+  "version": "1.0.0",
+  "description": "Personal Information Page about software engineering",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianPrendas/AdrianPrendas.github.io.git"
+  },
+  "keywords": [
+    "personalpage"
+  ],
+  "author": "Adrian Prendas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdrianPrendas/AdrianPrendas.github.io/issues"
+  },
+  "homepage": "https://github.com/AdrianPrendas/AdrianPrendas.github.io#readme"
+}
