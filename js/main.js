@@ -39,5 +39,34 @@ animMeter();
                     animMeter();
             }
         });
-    });
+
+        $('#content-transactions').css("display","none");
+        $('#content-mining').css("display","none");
+
+
+        $("#transactions").on("click",function(){
+
+            console.log("transactions tracer")
+            
+            if($("#content-transactions").css("display") == 'block')
+                $("#content-transactions").hide(1000)
+            else
+                $("#content-transactions").show(1000)
+
+        })
+
+        $("#mining").on("click",function(){
+
+            console.log("Text Mining")
+            
+            if($("#content-mining").css("display") == 'block')
+                $("#content-mining").hide(1000)
+            else
+                $("#content-mining").show(1000)
+
+        })
+
+});
+
+
 

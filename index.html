@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
@@ -161,10 +160,50 @@
                             </h3>
                             <ul class="no-list work">
                                 <li>
-                                    <a href="https://github.com/AdrianPrendas/LogsPrinting">Trazabilidad de transaccion en base de datos Oracle</a>
+                                	<a href="#transactions" id="transactions">Transactions Tracer</a>
+                                	<div id="content-transactions">
+                                		<p>
+                                			The database system is one of the most important components of any organization and is the focus of the Hackers attacks. This project was allocated in order to ensure the security of the oracle database, and is focuses on the integrity and Confidentiality of the system, seeking for anomalies or transactions forbidden, in the redo-logs, where the database store the transactions.
+                                		</p>
+                                		<p>
+                                			In the redo-logs we can see information relate to the trasacctions like: date, kind of operation, owner of the segment, sql executed, sql-1 inverse of query executed, table where the trasacction occurs, tablespace where the tables belongs, time, and the user who executed the query
+                                		</p>
+                                		<center>
+                                			<img src="images/transactions.png" id="transactionsImg">
+                                		</center>
+                                		<p>
+                                			This project open, read and print the data of the redo-logs, and is the base for develop more complex tools in order to ensure the security of the database
+                                		</p>
+                                		<p>
+                                			Repository: 
+                                			<a href="https://github.com/AdrianPrendas/LogsPrinting">
+                                				Logs Printing
+                                			</a>	
+                                		</p>
+                                	</div>
                                 </li>
+
                                 <li>
-									<a href="https://github.com/AdrianPrendas/Text-mining">Mineria de texto, utilizando principio de programación funcional</a>
+                                	<a href="#text-mining" id="mining">Text Mining</a>
+                                	<div id="content-mining">
+										<p>
+											This project uses fundamental principles of the functional paradigm, present from the beginning of computer science, with the composition of functions, to isolate each component of the application, taking advantage of the modularity for easily replace whatever component
+										</p>
+										<p>
+											The first component is in charge of translating the plain text into a specific format (CSV) for computing analysis and is called f(x)
+										</p>
+										<p>
+											The second component takes a structured file (CSV) to generate a graph in order to represent the relationship of each element from the text studied and the function is called G(x)
+										</p>
+										<p>
+											The third component use the same structured file (CSV) to generate the knowledge base to be read from prolog for asking about the relationship between  elements of the graph, we called the H(x) function
+										</p>
+										<p>
+											Repository:
+                                			<a href="https://github.com/AdrianPrendas/Text-mining">Text Mining</a>	
+                                		 </p>
+                                	</div>
+									
                                 </li>
                                 <li>
 									<a href="https://github.com/AdrianPrendas/laboratorio_3">Cliente en Android, Sistema de matricula</a>
