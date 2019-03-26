@@ -4,7 +4,9 @@
   "description": "A personal web",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build":"mkdir build && cp -R animation css images js build/ && cp index.html index3.html build/",
+    "clean":"rm -r build"
   },
   "repository": {
     "type": "git",
