@@ -604,6 +604,50 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .asbestos > span{
   background-color: #7f8c8d;
 }
+
+.js > span{
+  background-color: #8CC84B;
+}
+.react > span{
+  background-color: #32D8FC;
+}
+.cordova > span{
+  background-color: #303C4A;
+}
+.xamarin > span{
+  background-color: #7014E8;
+}
+.android > span{
+  background-color: #00E781;
+}
+.linux > span{
+  background-color: #000001;
+}
+.windows > span{
+  background-color: #00A6F5;
+}
+.oracle > span{
+  background-color: #F31A25;
+}
+.postgresql > span{
+  background-color: #2E5D83;
+}
+.mysql > span{
+  background-color: #DA9023;
+}
+.mongo > span{
+  background-color: #81C564;
+}
+.kotlin > span{
+  background-color: #D900BB;
+}
+.prolog > span{
+  background-color: #E10000;
+}
+.htmlcss > span{
+  background-color: #0170BA;
+}
+
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none;
   background-image: none;
